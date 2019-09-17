@@ -18,4 +18,5 @@ RUN adduser --disabled-password --gecos '' nginx\
   && chmod 777 /run/ -R \
   && chmod 777 /root/ -R
 
-ENTRYPOINT [ "/bin/bash", "/launcher.sh"]
+ENTRYPOINT [ "/bin/bash", "/launch.sh"]
+
